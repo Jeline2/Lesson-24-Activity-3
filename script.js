@@ -10,15 +10,15 @@ function validate(e) {
         msgBox.style.color = 'red';
 
     } else if (pass === '') {
-        message = 'assword [must be at least 8 characters.';
+        message = 'Enter a password.';
         msgBox.style.color = 'red';
     } else if (age === '') {
-        message = 'Age must be between 12 and 5';
+        message = 'Enter your age';
         msgBox.style.color = 'red';
     }
     else {
         message = 'Login Successful';
         msgBox.style.color = 'green';
     }
-        msgBox.innerText = message;
-    }
+    msgBox.innerText = message;
+}
